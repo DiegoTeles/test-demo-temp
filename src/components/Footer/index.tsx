@@ -6,7 +6,10 @@ function Footer() {
     <S.Container>
       <S.Content>
         <img src={Logo} alt='Logo Allow Me News' />
-        <p>Copyright © 2023 AllowMe News. Todos os direitos reservados</p>
+        <div>
+          <span>Copyright © 2023 AllowMe News. </span>
+          <span>Todos os direitos reservados</span>
+        </div>
       </S.Content>
     </S.Container>
   );
